@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#TODO FIX BRANDONS SHITTY USER INTERFACE
 echo -e "Would you like to remove some of the known vulerabilities from this machine? i.e. netcat, telnet, etc."
 read RmKnownResponse
 check(){
