@@ -8,3 +8,6 @@ debsums
 debsums –a –s
 apt-get install chkrootkit -y --force-yes
 chkrootkit
+
+#TODO: ClamAV, create separate scripts for third party software running.
+#Create comments of the log file paths for 
