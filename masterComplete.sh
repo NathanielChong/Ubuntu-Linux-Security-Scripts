@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "Welcome to the MASTER.sh Script\nSimply type 'Y' or 'n' to every prompted answer!\nContinue?"
+echo -e "Welcome to the MASTER.sh Script by Nathan Chong and Brandon Morrell and Stephen Welch (who needed to make a pull request)\nSimply type 'Y' or 'n' to every prompted answer!\nContinue?"
 read response
 check(){
 if [ $response = "n" ]
