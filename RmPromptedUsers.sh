@@ -1,7 +1,5 @@
 #!/bin/bash
 
-Purple='\033[0;35m'
-NC='\033[0m'
 echo -e "Would you like to delete users?"
 read deleteUsersResponse
 check(){
