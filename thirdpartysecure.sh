@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Run of $0" >> scriptlog.txt
 #finding rootkits
 apt-get install rkhunter -y --force-yes
 rkhunter -c --sk

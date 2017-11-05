@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "Run of $0" >> scriptlog.txt
 echo -e "Would you like to set passwords to all users?"
 read userPasswordResponse
 check(){

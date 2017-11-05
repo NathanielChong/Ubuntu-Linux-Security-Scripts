@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "Run of $0" >> scriptlog.txt
 echo -e "Would you like to add users?"
 read addUsersResponse
 check(){

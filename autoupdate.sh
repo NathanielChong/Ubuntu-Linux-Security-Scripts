@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Run of $0" >> scriptlog.txt
 touch /etc/apt/apt.conf.d/10periodic
 echo APT::Periodic::Update-Package-Lists "1"; >> /etc/apt/apt.conf.d/10periodic
 echo APT::Periodic::Download-Upgradeable-Packages "1"; >> /etc/apt/apt.conf.d/10periodic

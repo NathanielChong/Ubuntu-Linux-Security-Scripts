@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Run of $0" >> scriptlog.txt
 #file permissions
 chmod 640 /etc/shadow
 chmod 440 /etc/sudors

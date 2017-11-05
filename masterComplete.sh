@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Run of $0" >> scriptlog.txt
 echo -e "Welcome to the MASTER.sh Script\nSimply type 'Y' or 'n' to every prompted answer!\nContinue?"
 read response
 check(){
