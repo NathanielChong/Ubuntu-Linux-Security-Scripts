@@ -27,3 +27,6 @@ gufw
 apt-get install clamav
 freshclam #update virus definitions.
 clamscan -r --bell -i / #Scans all files only display infected.
+
+#GUI Frontend
+apt-get install clamtk
