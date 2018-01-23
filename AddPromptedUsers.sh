@@ -1,13 +1,6 @@
 #!/bin/bash
 echo "Run of $0" >> scriptlog.txt
-echo -e "Would you like to add users?"
-read addUsersResponse
-check(){
-if [ $addUsersResponse = "n" ]
-then
-	echo -e "Lets continue"
-elif [ $addUsersResponse = "Y" ]
-then
+
 	declare -a goodUsers=(); #List of users to be added.
 	declare -x response
 	declare -x pass="Ftbll530!" #password all new users are given.
@@ -29,10 +22,3 @@ then
 	   echo -e $u
 	done
 		
-else
-	echo -e "Please type 'Y' or 'n':"
-	read addUserResponse
-	check
-fi
-}
-check

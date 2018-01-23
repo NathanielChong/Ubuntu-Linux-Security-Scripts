@@ -1,14 +1,6 @@
 #!/bin/bash
 echo "Run of $0" >> scriptlog.txt
-echo -e "Would you like to delete users?"
-read deleteUsersResponse
-check(){
-if [ $deleteUsersResponse = "n" ]
-then
-	echo -e "Lets continue"
-elif [ $deleteUsersResponse = "Y" ]
-then
-    	declare -a badUsers #List of bad users.
+    declare -a badUsers #List of bad users.
 	declare -x response
 	mapfile -t userArray < users.txt
 	echo -e "Here are your users:"
@@ -35,11 +27,3 @@ then
 		echo $u >> "Deleted Users.txt"
 		echo -e $u
 	done
-
-else
-	echo -e "Please type 'Y' or 'n':"
-	read deleteUserResponse
-	check
-fi
-}
-check

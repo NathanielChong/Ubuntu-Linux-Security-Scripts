@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Run of $0" >> scriptlog.txt
-echo -e "We are removing known vulnerabilites"
 
-declare -a vulnList=('netcat' 'nc' 'telnet' 'telnetd inetulis-telnethd telnetd-ssl' 'john' 'johntheripper' 'rshd' 'rwhod' 'wu-ftpd' 'wu-ftp' 'sendmail' 'rpc' 'lpd' 'nfs' 'nfsd' 'lockd' 'mountd' 'statd' 'portmapper' 'vsftpd' 'aircrack-ng' 'hydra'); 
+declare -a vulnList=('netcat' 'nc' 'telnet' 'telnetd inetulis-telnethd telnetd-ssl' 'john' 'johntheripper' 'rshd' 'rwhod' 'wu-ftpd' 'wu-ftp' 'sendmail' 'rpc' 'lpd' 'nfs' 'nfsd' 'lockd' 'mountd' 'statd' 'portmapper' 'vsftpd' 'aircrack-ng' 
+	'hydra' 'medusa' 'ophcrack' 'rainbowcrack' 'minetest'); 
     	#List of known vulnerabilities.
 
 

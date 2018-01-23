@@ -1,22 +1,5 @@
 #!/bin/bash
 echo "Run of $0" >> scriptlog.txt
-echo -e "Welcome to the MASTER.sh Script\nSimply type 'Y' or 'n' to every prompted answer!\nContinue?"
-read response
-check(){
-if [ $response = "n" ]
-then
-	echo "Good Luck"
-    	exit
-elif [ $response = "Y" ]
-then
-    	echo "Great! Let's move on."
-else
-	echo "Please type 'Y' or 'n':"
-	read response
-	check
-fi
-}
-check
 
 ################################################
 # SCRIPT STARTS TO RUN BELOW, SUBSCRIPTS ARE   #
